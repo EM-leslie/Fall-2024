@@ -1,0 +1,20 @@
+ /* colors */
+
+ /*
+60% of #619E90 - Primary  		
+30% of #9E9061 - Secondary
+10% of #90619E - Accent
+ */
+
+ :root {
+
+/* var(--dominantColor) !important; */
+--dominantColor: #619E90;
+
+/* var(--secondaryColor) !important; */
+--secondaryColor: #9E9061;
+
+/* var(--accentColor) !important; */
+--accentColor: #90619E;
+
+ }
