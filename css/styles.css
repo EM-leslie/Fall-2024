@@ -2,14 +2,10 @@
 @import 'main.css';
 
 .test-font{
-
-color: #619E90;
-
+   color: var(--dominantColor) !important;;
 }
-
+ 
 
 .test-font-2 {
-
-    color: #619E90;
-    
+   color: var(--dominantColor) !important;;
     }
