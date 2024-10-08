@@ -7,8 +7,11 @@
    color: #ffffff;
 }
 
-
 .fa-row-icon {
    font-size: 60px;
    color: #ffffffff;
+}
+
+.fa-row-icon:hover {
+   transform: scale(1.1);
 }
