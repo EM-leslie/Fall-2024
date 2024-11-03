@@ -32,7 +32,6 @@
   margin-right: auto;
 }
 
-
 /*Table*/
 .content-table {
   border-collapse: collapse;
@@ -78,13 +77,11 @@
   border-right: 1px solid #dddddd;
 }
 
-
 .schedule-section {
   background-color: #f6fafa;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
 
 @media screen and (max-width:768px) {
@@ -93,4 +90,9 @@
     width: 100%;
   }
 
+}
+
+.list-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
