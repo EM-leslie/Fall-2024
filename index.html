@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vacation Planning</title>
 
-<!--Bootstrap CSS CDN-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
-<!--Font Awesome CSS CDN-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Bootstrap CSS CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--Font Awesome CSS CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Local CSS-->
-   <link href="css/styles.css" rel="stylesheet"/>
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
+
 <body>
-  
+
   <header>
 
     <!--Begins Top Navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -35,19 +40,20 @@
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -62,14 +68,17 @@
   </header>
 
 
-<main>
+  <main>
 
     <!--Begins Carousel-->
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -94,11 +103,13 @@
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -106,125 +117,139 @@
     <!--Ends Carousel-->
 
 
-  <!--Begin Font Awesome Row-->
-  <div class="container-fluid text-center fa-row">
-    <div class="row">
-      <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-        <i class="fa-solid fa-location-dot fa-row-icon"></i>
-        <br />Column one   
-      </div>
-      <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-        <i class="fa-solid fa-mountain-city fa-row-icon"></i>
-        <br />Column two   
+    <!--Begin Font Awesome Row-->
+    <div class="container-fluid text-center fa-row">
+      <div class="row">
+        <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+          <i class="fa-solid fa-location-dot fa-row-icon"></i>
+          <br />Column one
+        </div>
+        <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+          <i class="fa-solid fa-mountain-city fa-row-icon"></i>
+          <br />Column two
         </div>
         <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
           <i class="fa-solid fa-plane fa-row-icon"></i>
-          <br />Column three   
+          <br />Column three
+        </div>
+        <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+          <i class="fa-solid fa-earth-americas fa-row-icon"></i>
+          <br />Column fourth
+        </div>
+      </div>
+    </div>
+    <!--End Font Awesome Row-->
+
+    <!--Begin First Paragraph-->
+    <div class="container first-paragraph-div">
+      <div class="row">
+        <div class="col-12 col-xxs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h2> About US</h2>
+          <p>
+            Welcome to DreamEscape, your ultimate online destination for crafting the perfect getaway! Whether you’re
+            seeking a sun-soaked beach, a cozy mountain retreat, or a vibrant city adventure, we’re here to turn your
+            travel dreams into reality. Our user-friendly tools and expert tips make vacation planning a breeze,
+            allowing you to customize every detail from accommodations to activities. With handpicked recommendations
+            and insider insights, DreamEscape ensures you experience your destination like a local. Get ready to pack
+            your bags and embark on an unforgettable journey!
+          </p>
+        </div>
+        <div class="col-12 col-xxs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <img src="https://www.dummyimage.com/600x400/054145/ffffff.jpg" alt="placeholder"
+            class="first-paragraph-img img-responsive" />
+        </div>
+      </div>
+    </div>
+    <!--End First Paragraph-->
+
+    <!---Begin Table-->
+    <div class="container-fluid schedule-section table-responsive">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="text-center">Vacation Planning Availabilty</h2>
+
+            <table class="content-table">
+              <thead>
+                <tr>
+                  <th>&nbsp;</th>
+                  <th>Tuesdays</th>
+                  <th>Fridays</th>
+                  <th>Saturday</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Summer</td>
+                  <td>9:30AM-11:30AM</td>
+                  <td>8:30AM-10:30AM</td>
+                  <td>8:30AM-10:30AM</td>
+                </tr>
+
+                <tr>
+                  <td>Spring</td>
+                  <td>12:00PM-2:00PM</td>
+                  <td>11:00AM-1:00PM</td>
+                  <td>11:00AM-1:00PM</td>
+                </tr>
+
+                <tr>
+                  <td>Fall</td>
+                  <td>2:30PM-4:30PM</td>
+                  <td>1:30PM-3:30PM</td>
+                  <td>1:30PM-3:30PM</td>
+                </tr>
+
+                <tr>
+                  <td>Winter</td>
+                  <td>5:00PM-7:00PM</td>
+                  <td>4:00PM-6:00PM</td>
+                  <td>4:00PM-6:00PM</td>
+                </tr>
+              </tbody>
+
+              <tfoot>
+                <tr>
+                  <td colspan="4"><a href="#" class="btn btn-primary">Learn More</a></td>
+                </tr>
+              </tfoot>
+
+            </table>
           </div>
-          <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-            <i class="fa-solid fa-earth-americas fa-row-icon"></i>
-            <br />Column fourth
-            </div>
-      </div> 
-  </div>
-<!--End Font Awesome Row-->
 
-<!--Begin First Paragraph-->
-<div class="container first-paragraph-div">
-  <div class="row">
-    <div class="col-12 col-xxs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-     <h2> About US</h2>
-      <p>
-       Welcome to DreamEscape, your ultimate online destination for crafting the perfect getaway! Whether you’re seeking a sun-soaked beach, a cozy mountain retreat, or a vibrant city adventure, we’re here to turn your travel dreams into reality. Our user-friendly tools and expert tips make vacation planning a breeze, allowing you to customize every detail from accommodations to activities. With handpicked recommendations and insider insights, DreamEscape ensures you experience your destination like a local. Get ready to pack your bags and embark on an unforgettable journey!
-    </p>
+          <div class="col-12 col-xxs-12 col-xs-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <h2>Why To Plan With Us!</h2>
+
+            <ol>
+              <li><strong>Budget Management:</strong> Planning helps you set a budget and avoid overspending.</li>
+              <li><strong>Customized Experiences:</strong> You can tailor your itinerary to your interests, ensuring a
+                more enjoyable experience.
+                <ul>
+                  <li><strong>Enhanced Comfort:</strong> You can select accommodations and transportation that suit your
+                    comfort level and needs, ensuring a more pleasant stay.</li>
+                  <li><strong>Avoiding Crowds:</strong> Planning allows you to visit popular sites during off-peak times
+                    or choose lesser-known attractions, providing a more serene experience.</li>
+                  <li><strong>Memorable Experiences:</strong> Tailored trips often lead to more memorable moments that
+                    are personally significant, making your vacation truly unique.</li>
+                  <li><strong>Unique Activities:</strong> Customized planning allows you to include unique experiences,
+                    such as local tours, workshops, or off-the-beaten-path excursions that you might not find in
+                    standard packages.</li>
+                </ul>
+              </li>
+              <li><strong>Stress Reduction:</strong> Having a plan in place can reduce anxiety and stress leading up to
+                the trip.</li>
+              <li><strong>Adventure Preparedness:</strong> If you plan outdoor or adventurous activities, you can ensure
+                you have the necessary gear and information</li>
+            </ol>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-12 col-xxs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-      <img src="https://www.dummyimage.com/600x400/054145/ffffff.jpg" alt="placeholder" class="first-paragraph-img img-responsive"/>
-    </div>
-  </div>
-</div>
-<!--End First Paragraph-->
-
-<!---Begin Table-->
-<div class="container-fluid schedule-section table-responsive">
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-xxs-12 col-xs-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-      <h2 class="text-center">Vacation Planning Availabilty</h2>
-  
-      <table class="content-table">
-        <thead>
-         <tr>
-           <th>&nbsp;</th>
-           <th>Tuesdays</th>
-           <th>Fridays</th>
-           <th>Saturday</th>
-          </tr>
-         </thead>
-      
-        <tbody>
-          <tr>
-           <td>Summer</td>
-           <td>9:30AM-11:30AM</td>
-           <td>8:30AM-10:30AM</td>
-           <td>8:30AM-10:30AM</td>
-          </tr>
-          
-                <tr>
-           <td>Spring</td>
-           <td>12:00PM-2:00PM</td>
-           <td>11:00AM-1:00PM</td>
-           <td>11:00AM-1:00PM</td>
-          </tr>
-          
-                <tr>
-           <td>Fall</td>
-           <td>2:30PM-4:30PM</td>
-           <td>1:30PM-3:30PM</td>
-           <td>1:30PM-3:30PM</td>
-          </tr>
-          
-                <tr>
-           <td>Winter</td>
-           <td>5:00PM-7:00PM</td>
-           <td>4:00PM-6:00PM</td>
-           <td>4:00PM-6:00PM</td>
-          </tr>
-        </tbody>  
-        
-      <tfoot>
-        <tr>
-           <td colspan="4"><a href="#" class="btn btn-primary">Learn More</a></td>
-         </tr>
-      </tfoot>    
-            
-      </table>
-    </div>
-
-    <div class="col-12 col-xxs-12 col-xs-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-      <h2>Why To Plan With Us!</h2>
-  
-      <ol>
-        <li><strong>Budget Management:</strong> Planning helps you set a budget and avoid overspending.</li>
-        <li><strong>Customized Experiences:</strong> You can tailor your itinerary to your interests, ensuring a more enjoyable experience.
-            <ul>
-              <li><strong>Enhanced Comfort:</strong> You can select accommodations and transportation that suit your comfort level and needs, ensuring a more pleasant stay.</li>
-              <li><strong>Avoiding Crowds:</strong> Planning allows you to visit popular sites during off-peak times or choose lesser-known attractions, providing a more serene experience.</li>
-              <li><strong>Memorable Experiences:</strong> Tailored trips often lead to more memorable moments that are personally significant, making your vacation truly unique.</li>
-             <li><strong>Unique Activities:</strong> Customized planning allows you to include unique experiences, such as local tours, workshops, or off-the-beaten-path excursions that you might not find in standard packages.</li>
-            </ul>
-        </li>
-        <li><strong>Stress Reduction:</strong> Having a plan in place can reduce anxiety and stress leading up to the trip.</li>
-        <li><strong>Adventure Preparedness:</strong> If you plan outdoor or adventurous activities, you can ensure you have the necessary gear and information</li>
-      </ol>
-    </div>
-  </div>
-</div>
-</div>
-<!--End Table-->
+    <!--End Table-->
 
 
-</main>
+  </main>
 
   <footer>
     Footer content goes here
@@ -233,7 +258,10 @@
   <!--JavaScrip goes here-->
   <div>
     <!--Bootstrap JS CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
   </div>
 </body>
+
 </html>
