@@ -1,93 +1,96 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'global.css';
 @import 'main.css';
 
 .fa-row {
-   background-color: var(--dominantColor) !important;
-   padding: 35px;
-   color: #ffffff;
+  background-color: var(--dominantColor) !important;
+  padding: 35px;
+  color: #ffffff;
 }
 
 .fa-row-icon {
-   font-size: 60px;
-   color: #ffffffff;
+  font-size: 60px;
+  color: #ffffffff;
 }
 
 .fa-row-icon:hover {
-   transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.first-pragraph-div{
-   position: relative;
-   background-color: #ffffff;
-   color: #000000;
-   font-weight: normal;
-   font-size: 16px;
-   padding: 20px;
-   height: auto;
-   margin-top: 20px;
-   margin-bottom: 18px;
-   font-family: "Montserrat", serif;
-   margin-left: auto;
-   margin-right: auto;
+.first-pragraph-div {
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 20px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-family: "Montserrat", serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 /*Table*/
 .content-table {
-   border-collapse: collapse;
-   width: 100%;
-   max width: 1000px;
-   margin: auto;
-   text-align: center;
- }
- 
- .content-table th, .content-table td {
-   padding: 20px;
- }
- 
- .content-table thead tr {
-   border-bottom: 1px solid #dddddd;
-   background-color: var(--dominantColor) !important;;
-   color: #ffffff;
- }
- 
- .content-table tbody tr {
-   border-bottom: 1px solid #dddddd;
-   background-color: #fffff;
- }
- 
- .content-table tbody tr:nth-of-type(even) {
-   background-color: #f3f3f3;
- }
- 
- .content-table tbody tr:nth-of-type(odd) {
-   background-color: #ffffff;
- }
- .content-table tbody tr:last-of-type {
-   border-bottom: 3px solid var(--dominantColor) !important;; 
- }
- 
- .content-table tbody tr td:first-of-type {
+  border-collapse: collapse;
+  width: 100%;
+  /*max width: 1000px;*/
+  margin: auto;
+  text-align: center;
+}
+
+.content-table th,
+.content-table td {
+  padding: 20px;
+}
+
+.content-table thead tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: var(--dominantColor) !important;
+  ;
+  color: #ffffff;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: #fffff;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
   background-color: #ffffff;
-   text-align: right;
-   border-right: 1px solid #dddddd;
- }
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 3px solid var(--dominantColor) !important;
+  ;
+}
+
+.content-table tbody tr td:first-of-type {
+  background-color: #ffffff;
+  text-align: right;
+  border-right: 1px solid #dddddd;
+}
 
 
- .schedule-section {
+.schedule-section {
   background-color: #f6fafa;
   padding-top: 30px;
   padding-bottom: 30px;
- }
+}
 
 
 
- @media screen and (max-width:768px) {
- 
+@media screen and (max-width:768px) {
+
   .first-paragraph-img {
-  width: 100%;
- }
+    width: 100%;
+  }
 
- }
+}
